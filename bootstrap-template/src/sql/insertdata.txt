@@ -1,0 +1,48 @@
+INSERT INTO USERDATA(EMAIL,PASSWORD,FNAME,LNAME,USERTYPE)
+VALUES('admin@admin.com', 'mypassword', 'System', 'Administrator','ADMIN');
+
+INSERT INTO USERDATA(EMAIL,PASSWORD,FNAME,LNAME,USERTYPE)
+VALUES('user1@user.com', 'mypassword', 'General1', 'User','GENUSER');
+
+INSERT INTO USERDATA(EMAIL,PASSWORD,FNAME,LNAME,USERTYPE)
+VALUES('user2@user.com', 'mypassword', 'General2', 'User','GENUSER');
+
+INSERT INTO USERDATA(EMAIL,PASSWORD,FNAME,LNAME,USERTYPE)
+VALUES('user3@user.com', 'mypassword', 'General3', 'User','GENUSER');
+
+INSERT INTO USERDATA(EMAIL,PASSWORD,FNAME,LNAME,USERTYPE)
+VALUES('user4@user.com', 'mypassword', 'General4', 'User','GENUSER');
+
+INSERT INTO PROD(NAME,IMG,PRICE,DESCRIPTION,DIMENSIONS,MATERIAL,TYPE)
+VALUES('Pedestrian Crossing', 'https://4.imimg.com/data4/KO/UY/MY-7116929/road-signs-500x500.jpg', '10', ' This Sign warns cars that there is a pedestrian crossing ahead, it has a white background which is surrounded by a red triangle with a stick figure in the center.', '500 X 500', 'Metal', 'Warning');  
+
+INSERT INTO PROD(NAME,IMG,PRICE,DESCRIPTION,DIMENSIONS,MATERIAL,TYPE)
+VALUES('No Entry', 'https://www.seton.net.au/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/Y/5/Y595222-A8027-regulatory-no-entry-sign_1.jpg', '50', 'This Sign clearly restricts access to a certain area, be it your driveway of your premises.', '850 X 850', 'Metal', 'Warning');  
+
+INSERT INTO PROD(NAME,IMG,PRICE,DESCRIPTION,DIMENSIONS,MATERIAL,TYPE)
+VALUES('Reindeer Ahead', 'https://cdn.shopify.com/s/files/1/0878/7628/products/Road_Sign___Rein_506335d19217e_480x480.gif?v=1511173953', '25', ' This sign warns drivers of the possibility of reindeer ahead, which of course is a very regular occurrence in Ireland', '200 X 200', 'Metal', 'Regulatory'); 
+
+INSERT INTO PROD(NAME,IMG,PRICE,DESCRIPTION,DIMENSIONS,MATERIAL,TYPE)
+VALUES('Stop Sign', 'https://www.safetysign.com/images/source/product-grid-images/Y1249.png', '15', 'This Sign cleary indicated to a driver that they must stop. ', '500 X 500', 'Metal', 'Regulatory'); 
+
+INSERT INTO PROD(NAME,IMG,PRICE,DESCRIPTION,DIMENSIONS,MATERIAL,TYPE)
+VALUES('Hiking Trail', 'https://images.campgroundsigns.com/img/lg/X/mutcd-campground-guide-sign-hiking-trail-x-rs-068.png', '40', 'This sign indicates the presence of a hiking trail', '400 X 400', 'Metal', 'Marker'); 
+
+INSERT INTO PROD(NAME,IMG,PRICE,DESCRIPTION,DIMENSIONS,MATERIAL,TYPE)
+VALUES('No Parking', 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Singapore_Road_Signs_-_Restrictive_Sign_-_No_Parking.svg', '35', ' This indicates to a driver that there is no parking allowed, this sign is perfect for any private property', '200 X 500', 'Metal', 'Regulatory'); 
+
+INSERT INTO PROD(NAME,IMG,PRICE,DESCRIPTION,DIMENSIONS,MATERIAL,TYPE)
+VALUES('Traffic Lights', 'https://upload.wikimedia.org/wikipedia/commons/8/8a/Liberian_Road_Signs_-_Warning_Sign_-_Traffic_signals_ahead.svg', '24', ' This sign informs drivers that there is traffic lights ahead', '500 X 500', 'Metal', 'Warning'); 
+
+INSERT INTO PROD(NAME,IMG,PRICE,DESCRIPTION,DIMENSIONS,MATERIAL,TYPE)
+VALUES('Nuclear Warning', 'https://st.depositphotos.com/1573506/1406/v/950/depositphotos_14064542-stock-illustration-radiation-warning-sign.jpg', '14', 'This sign warns people of possible nuclear danger ahead, perfect as a gift for that special someone  ', '500 X 500', 'Metal', 'Marker');  
+
+
+
+
+
+
+
+
+
+
